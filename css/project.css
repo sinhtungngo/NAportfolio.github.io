@@ -1,0 +1,132 @@
+@font-face {
+  font-family: AlegreyaSans-Medium;
+  src: url(../font/AlegreyaSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: AlegreyaSans-Regular;
+  src: url(../font/AlegreyaSans-Regular.ttf);
+}
+
+.project-des-container {
+  display: flex;
+  padding-top: 3rem;
+  width: 100%;
+}
+
+.left-des {
+  display: flex;
+}
+
+.right-des {
+  margin-left: 650px;
+  margin-top: 80px;
+}
+
+.position {
+  position: absolute;
+}
+
+.slideBodyProject {
+  padding: 5rem 5rem;
+  padding-bottom: 0rem;
+}
+
+/* .project-des-container > .left-des {
+  width: ;
+} */
+.pic1 {
+  background-image: url("../image/IMG_0403.png");
+  width: 200px;
+  height: 270px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+.pic2 {
+  margin-left: 150px;
+  z-index: 2;
+}
+.pic21 {
+  background-image: url("../image/IMG_0415.png");
+  width: 180px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.pic22 {
+  background-image: url("../image/IMG_0412.png");
+  width: 180px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.pic3 {
+  margin-left: 320px;
+  margin-top: 140px;
+  background-image: url("../image/IMG_0407.png");
+  width: 180px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.projectTitle {
+  font-family: AlegreyaSans-Medium;
+  font-size: 2rem;
+}
+
+.projectText {
+  padding-top: 2rem;
+  font-family: AlegreyaSans-Regular;
+  font-size: 1.3rem;
+}
+
+.project2-image1 {
+  background-image: url("../image/4.png");
+  width: 300px;
+  height: 400px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.project2-image2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.project2-image21 {
+  background-image: url("../image/5.png");
+  width: 170px;
+  height: 240px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.project2-image22 {
+  background-image: url("../image/6.png");
+  width: 170px;
+  height: 240px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.right-des-project2 {
+  margin-left: 170px;
+  margin-top: 80px;
+}
+
+.project-video {
+  width: 20vw;
+  height: 20vh;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+
+.project-video > video {
+  border-style: solid;
+  border-color: red;
+}

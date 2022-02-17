@@ -1,0 +1,81 @@
+@font-face {
+  font-family: AlegreyaSans-Bold;
+  src: url(../font/AlegreyaSans-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: AlegreyaSans-Light;
+  src: url(../font/AlegreyaSans-Light.ttf);
+}
+
+.info-image {
+  background-image: url("../image/IMG-3101@3x.jpg");
+  width: 200px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.info {
+  display: flex;
+  justify-content: flex-end;
+}
+.info-text {
+  width: 200px;
+  margin-top: 50px;
+}
+.label {
+  font-family: AlegreyaSans-Regular;
+  font-size: 1.5rem;
+  text-align: end;
+}
+
+.label-name {
+  font-family: AlegreyaSans-Bold;
+  font-size: 3rem;
+  text-align: end;
+  text-transform: uppercase;
+  word-spacing: 5px;
+}
+
+.detail {
+  display: flex;
+}
+
+.detail-left > div {
+  padding: 30px 10px;
+  border-left: 2px solid white;
+}
+
+.type {
+  font-family: AlegreyaSans-Medium;
+  font-size: 2rem;
+}
+
+.status {
+  font-family: AlegreyaSans-Light;
+  font-size: 1.5rem;
+}
+
+.detail-right {
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+.about-me {
+  font-family: AlegreyaSans-Medium;
+  font-size: 2rem;
+  text-align: end;
+}
+
+.about-me-detail {
+  margin-top: 1rem;
+  font-family: AlegreyaSans-Regular;
+  font-size: 1.7rem;
+  text-align: end;
+}
+
+/* .type::before {
+  content: "- ";
+} */

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="./css/page1.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/project.css">
+    <link rel="stylesheet" href="./css/skill.css">
+    <link rel="stylesheet" href="./css/experience.css">
+    <link rel="stylesheet" href="./css/personal.css">
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class=" left">
+            <div class="left-container">
+                <div onclick="currentSlide(1)" class="logo"></div>
+                <hr>
+                <div class="content">CV/PROFOLIO </div>
+                <hr>
+                <div class="slideshow-container">
+                    <div onclick="currentSlide(1)" class=" mySlides fade menuText">
+                        Personal information
+                    </div>
+
+                    <div onclick="currentSlide(2)" class="mySlides fade menuText">
+                        education
+                    </div>
+
+                    <div onclick="currentSlide(3)" class="mySlides fade menuText">
+                        experience
+                    </div>
+                    <div onclick="currentSlide(4)" class="mySlides fade menuText">
+                        skills
+                    </div>
+                    <div onclick="currentSlide(5)" class="mySlides fade menuText">
+                        projects
+                    </div>
+                    <div onclick="currentSlide(6)" class="mySlides fade menuText">
+                        contact
+                    </div>
+                </div>
+                <hr>
+                <div class="dot-container" style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="right">
+            <!-- <div class="right-container"></div> -->
+            <div id="contact" class="contact slideBody">
+                <div class="bigTitle"> <button class="fullWidth buttonText">Contact</button></div>
+
+                <div class="address info-container">
+                    <div class="address-icon"></div>
+                    <div class="des">Le Van Luong, Thanh Xuan, Ha Noi</div>
+                </div>
+
+                <div class="phone info-container">
+                    <div class="phone-icon"></div>
+                    <div class="des">+84934551372</div>
+                </div>
+
+                <div class="email info-container">
+                    <div class="email-icon"></div>
+                    <div class="des">caothingocanh1312@gmail.com</div>
+                </div>
+
+                <div class="fb-ins info-container">
+                    <div onclick="redirect('fb')" class="fb-icon"></div>
+                    <div onclick="redirect('ins')" class="ins-icon"></div>
+
+                </div>
+
+
+            </div>
+
+            <div id="project" class="project slideBodyProject slideshow-container">
+                <div id="project1" class="projectSlice">
+                    <div class="bigTitle"> <button class="fullWidth buttonText">My projects</button></div>
+                    <div class="project-des-container">
+                        <div class="left-des">
+                            <div class="pic1 position"></div>
+                            <div class="pic2 position">
+                                <div class="pic21">
+                                </div>
+                                <div class="pic22">
+                                </div>
+                            </div>
+                            <div class="pic3 position"></div>
+                        </div>
+                        <div class="right-des">
+                            <div class="projectTitle">Photography</div>
+                            <div class="projectText">Take photos of Davidoff Cool Water Man perfume products, using
+                                blue, red and black tones to help the product become high-class, luxurious,
+                                eye-catching, attractive, ... users.</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div id="project2" class="projectSlice project2">
+                    <div class="bigTitle"> <button class="fullWidth buttonText">My projects</button></div>
+                    <div class="project-video" style="display: flex;justify-content: center;margin: 50px 0 0 0;width: 100%; height: calc(100vh - 220px);">
+                        <video controls autoplay>
+                            <source src="./video/8502903417446366552.mp4" type="video/mp4">
+                            <source src="mov_bbb.ogg" type="video/ogg">
+                            Your browser does not support HTML video.
+                        </video>
+                    </div>
+                </div>
+
+                <div id="project3" class="projectSlice project3">
+                    <div class="bigTitle"> <button class="fullWidth buttonText">My projects</button></div>
+                    <div class="project-des-container">
+                        <div class="left-des">
+                            <div class="project2-image1"></div>
+                            <div class="project2-image2">
+                                <div class="project2-image21">
+
+                                </div>
+                                <div class="project2-image22">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-des-project2">
+                            <div class="projectTitle">Fashion Magazine</div>
+                            <div class="projectText">Magazine, also called periodical, a printed or digitally published
+                                collection of texts (essays, articles, stories, poems), often illustrated, that is
+                                produced at regular intervals (excluding newspapers). A brief treatment of magazines
+                                follows. For full treatment, see publishing: Magazine publishing.</div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="dot-container projectSlide" style="text-align:center">
+                    <span class="dotP" onclick="currentSlideProject(1)"></span>
+                    <span class="dotP" onclick="currentSlideProject(2)"></span>
+                    <span class="dotP" onclick="currentSlideProject(3)"></span>
+
+                </div>
+
+            </div>
+
+            <div id="skill" class="skill slideBodySkill">
+                <div class="bigTitle"> <button class="fullWidth buttonText">Personal skills</button></div>
+                <div class="total-skill">
+                    <div class="creatitivity">
+                    </div>
+                    <div class="team-work">
+                    </div>
+                    <div class="flexible">
+                    </div>
+                    <div class="laziness">
+                    </div>
+                </div>
+
+                <div class="bigTitle"> <button class="fullWidth buttonText software">Software skills</button></div>
+                <div class="total-skill2">
+                    <div class="ilustrator">
+                    </div>
+                    <div class="moho">
+                    </div>
+                    <div class="after-effects">
+                    </div>
+                    <div class="photoshop">
+                    </div>
+                </div>
+            </div>
+
+            <div id="experience" class="experience slideBody">
+                <div class="bigTitle"> <button class="fullWidth buttonText">Work experience</button></div>
+                <div class="edilive"> Edulive</div>
+                <hr class="experience-hr">
+                <div class="time">(2020 - present) </div>
+                <div class="ex-des">A comprehensive educational background. Integrate all the Education and Training
+                    tools you need on a single platform for more effective, creative and interactive learning</div>
+            </div>
+
+            <div id="education" class="education slideBody">
+
+                <div class="bigTitle"> <button class="fullWidth buttonText">Work experience</button></div>
+                <div class="edilive"> Phan Huy Chu High School</div>
+                <hr class="experience-hr">
+                <div class="time">(2013 - 2018) </div>
+                <div class="ex-des">70 years of construction and growth, generations of teachers and students of Phan Huy Chu school can be proud of the school's glorious tradition. Proud to have glorified Phan Huy Chu - Vietnamese cultural celebrity - whose name the school is honored to bear.</div>
+
+                <div class="edilive"> Arena </div>
+                <hr class="experience-hr">
+                <div class="time">(2020 - present) </div>
+                <div class="ex-des">The difference of Arena compared to other universities is training in the
+                    form of close association with businesses, linking training with practice, with research -
+                    implementation and the most modern technologies. Modern educational philosophy and methods,
+                    comprehensive and harmonious human training</div>
+            </div>
+
+            <div id="personal-info" class="personal-info slideBody">
+                <div class="info">
+                    <div class="info-text">
+                        <div class="label"> My name is </div>
+                        <div class="label-name"> Cao thi ngoc anh </div>
+                    </div>
+                    <div class="info-image"></div>
+                </div>
+
+                <div class="detail">
+                    <div class="detail-left">
+                        <div>
+                            <div class="type">Relationship</div>
+                            <div class="status">Single</div>
+                        </div>
+
+                        <div>
+                            <div class="type">Agelity</div>
+                            <div class="status">21 year</div>
+                        </div>
+
+                        <div>
+                            <div class="type">Nationality</div>
+                            <div class="status">Vietnamese</div>
+                        </div>
+
+                    </div>
+
+                    <div class="detail-right">
+                        <div class="about-me">About me</div>
+                        <div class="about-me-detail">My passion is graphic design in which I believe I can bring art
+                            closer to life. I am a beginner and humble to learn further to progress my career and make
+                            the world a better place through my design. I hope my youthful nature can bring energy and
+                            passion and also help us secceed in life.</div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+</body>
+
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function redirect(n) {
+        if (n === 'fb') {
+            window.open('https://www.facebook.com/ngocc.anhhs/', '_blank');
+        } else {
+            window.open('   https://www.instagram.com/cnaa1312/', '_blank');
+
+        }
+
+    }
+    function currentSlideProject(n) {
+        showSlidesProject(slideIndex = n);
+    }
+
+    function showSlidesProject(n) {
+
+        var i;
+        var slides = document.getElementsByClassName("projectSlice");
+        var dots = document.getElementsByClassName("dotP");
+        if (n == 1) {
+
+            document.getElementById("project1").style.display = "block"
+            document.getElementById("project2").style.display = "none"
+            document.getElementById("project3").style.display = "none"
+        } else if (n == 2) {
+            document.getElementById("project1").style.display = "none"
+            document.getElementById("project2").style.display = "block"
+            document.getElementById("project3").style.display = "none"
+        } else if (n == 3) {
+            document.getElementById("project1").style.display = "none"
+            document.getElementById("project2").style.display = "none"
+            document.getElementById("project3").style.display = "block"
+        }
+
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+
+        for (i = 0; i < slides.length; i++) {
+            // slides[i].style.display = "none";
+            slides[i].classList.remove("activeMenu");
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n == 6) {
+            document.getElementById("contact").style.display = "block"
+            document.getElementById("project").style.display = "none"
+            document.getElementById("skill").style.display = "none"
+            document.getElementById("experience").style.display = "none"
+            document.getElementById("personal-info").style.display = "none"
+            document.getElementById("education").style.display = "none"
+        } else if (n == 5) {
+            document.getElementById("contact").style.display = "none"
+            document.getElementById("project").style.display = "block"
+            document.getElementById("skill").style.display = "none"
+            document.getElementById("experience").style.display = "none"
+            document.getElementById("personal-info").style.display = "none"
+            document.getElementById("education").style.display = "none"
+
+        } else if (n == 4) {
+            document.getElementById("contact").style.display = "none"
+            document.getElementById("project").style.display = "none"
+            document.getElementById("skill").style.display = "block"
+            document.getElementById("experience").style.display = "none"
+            document.getElementById("personal-info").style.display = "none"
+            document.getElementById("education").style.display = "none"
+        } else if (n == 3) {
+            document.getElementById("contact").style.display = "none"
+            document.getElementById("project").style.display = "none"
+            document.getElementById("skill").style.display = "none"
+            document.getElementById("experience").style.display = "block"
+            document.getElementById("personal-info").style.display = "none"
+            document.getElementById("education").style.display = "none"
+        }
+        else if (n == 2) {
+            document.getElementById("contact").style.display = "none"
+            document.getElementById("project").style.display = "none"
+            document.getElementById("skill").style.display = "none"
+            document.getElementById("experience").style.display = "none"
+            document.getElementById("personal-info").style.display = "none"
+            document.getElementById("education").style.display = "block"
+        }
+        else if (n == 1) {
+            document.getElementById("contact").style.display = "none"
+            document.getElementById("project").style.display = "none"
+            document.getElementById("skill").style.display = "none"
+            document.getElementById("experience").style.display = "none"
+            document.getElementById("personal-info").style.display = "block"
+            document.getElementById("education").style.display = "none"
+        }
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+
+        for (i = 0; i < slides.length; i++) {
+            // slides[i].style.display = "none";
+            slides[i].classList.remove("activeMenu");
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        slides[slideIndex - 1].classList.add("activeMenu");
+        dots[slideIndex - 1].className += " active";
+        if (n == 5) {
+            currentSlideProject(1);
+        }
+    }
+
+</script>
+
+
+</html>

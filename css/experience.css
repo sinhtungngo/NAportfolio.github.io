@@ -1,0 +1,22 @@
+.edilive {
+  margin-top: 4rem;
+  font-family: AlegreyaSans-Medium;
+  font-size: 1.5rem;
+  text-align: end;
+}
+
+.experience-hr {
+  background-color: white;
+  width: 340px;
+  margin-right: 0px;
+}
+
+.time {
+  font-family: AlegreyaSans-Regular;
+  font-size: 1rem;
+  text-align: end;
+}
+
+.ex-des {
+  margin-top: 1rem;
+}
